@@ -1,0 +1,24 @@
+{
+  "name": "grunt-scarab",
+  "version": "0.0.1",
+  "description": "Grunt plugin for starting a scarab server with live reloading",
+  "main": "tasks/scarab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "grunt",
+    "scarab",
+    "server",
+    "live-reload"
+  ],
+  "author": "Florian Reiterer <me@florianreiterer.com>",
+  "license": "BSD",
+  "dependencies": {
+    "connect-livereload": "~0.2.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  }
+}
