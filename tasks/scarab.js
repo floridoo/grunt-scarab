@@ -39,7 +39,7 @@ module.exports = function(grunt) {
 			app.use('/$reload', function(req, res) {
 				grunt.log.writeln('Restarting scarab...');
 				app.teardown(function() {
-					app.scarab.uncache(app);
+					app.scarab.uncache();
 					server.removeAllListeners('request');
 					setupServer(server, options);
 				});
